@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222222;
+}
+
+.details_title {
+  font-family: "inter", Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 0.5%;
+}
+
+.details_subtitle {
+  font-family: "inter", Arial, sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+img {
+  width: 150px;
+  height: 70px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup_container {
+  background-color: #ffffff;
+  width: 30vw;
+  height: 56vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1%;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./register.css" />
+    <title>Sign up</title>
+    <link rel="icon" href="./images/image4.png" type="image/svg+xml" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header_details">
+        <div class="image">
+          <img src="./images/yoco.png" alt="" />
+        </div>
+        <div class="details">
+          <h1 class="details_title">Let's get<span>you started</span></h1>
+          <h2 class="details_subtitle">
+            Sign up to order your card machine or set up online
+            <span>card payments with Yoco.</span>
+          </h2>
+        </div>
+      </div>
+
+      <div class="info">
+        <div class="signup_container">
+          <div class="header">
+            <h1 class="signup_header">Login with your Yoco account</h1>
+            <hr />
+          </div>
+          <div class="signup_form">
+            <form action="/form_login" method="post">
+              <!-- Username -->
+              <div class="signup_info1">
+                <label for="username" class="signup_label"> Username: </label>
+                <div class="signup_input">
+                  <input type="text" name="username" id="username" required />
+                </div>
+              </div>
+              <!-- Password -->
+              <div class="signup_info2">
+                <label for="password" class="login_label"> Password: </label>
+                <div class="signup_input">
+                  <input type="text" name="password" id="password" required />
+                </div>
+              </div>
+              <div id="button">
+                <a class="continue_button" href="#">Continue</a>
+                <h3 class="login">
+                  Already have an account?
+                  <a class="login_button" href="#">Login</a>
+                </h3>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
